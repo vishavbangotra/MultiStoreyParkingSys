@@ -3,5 +3,5 @@ from .views import *
 
 urlpatterns = [
     path('car/new/', CarEnter),
-    path('car/<int:pk>', CarLeaves),
+    path('car/leave/<int:pk>', CarLeaves),
 ]

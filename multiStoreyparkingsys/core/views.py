@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication, TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from .serializers import CarSerializer
-from .models import Car, SlotsAvailable
+from .models import Car
 
 heap_slots = []
 heapify(heap_slots)
@@ -14,7 +14,7 @@ for i in range(1, 100):
     heappush(heap_slots, i)
 
 
-@api_view(['POST'])
+@api_view(['POST', 'GET'])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 def CarEnter(request):
