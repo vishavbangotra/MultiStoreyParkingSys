@@ -6,4 +6,4 @@ class Car(models.Model):
     r_no = models.CharField(max_length=128)
 
     def __str__(self):
-        return "R.No."+": "+self.r_no+"Slot: "+self.slot
+        return "R.No"+": "+self.r_no+" | Slot: "+str(self.slot)
