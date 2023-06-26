@@ -1,5 +1,4 @@
 #### Vishav Bangotra | vishav.bangotra@gmail.com
-##### Assignment for Backend Development Intern at Rethink UX
 
 ## API Endpoints
 ##### To handle when a new car enters the parking area:-
