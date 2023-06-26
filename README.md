@@ -8,9 +8,4 @@ A POST request to the https://localhost:8000/api/car/new/ to allocate a parking 
 A DELETE request is sent to https://localhost:8000/api/car/leave/pk/ to empty the parking space in the database.
 
 
-## Problems that I faced :-
-1. Choosing appropriate Data Structure for storing available parking slots. Finally chose MinHeap.
-1. Choosing API authorization methods.
-1. Bugs in implementing the logic.
-
 ## POSTMAN Collections are added in the Repo and the zip file.
